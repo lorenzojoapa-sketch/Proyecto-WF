@@ -1,1 +1,9 @@
-{"name":"proyecto-wf","version":"1.0.0","description":"Bot de WhatsApp con whatsapp-web.js","main":"index.js","scripts":{"start":"node index.js","dev":"nodemon index.js"},"keywords":["whatsapp","bot"],"author":"lorenzojoapa-sketch","license":"MIT","dependencies":{"whatsapp-web.js":"^1.25.0","dotenv":"^16.0.0","qrcode-terminal":"^0.12.0"},"devDependencies":{"nodemon":"^2.0.20"}}
+{
+  "dependencies": {
+    "express": "^4.17.1",
+    "whatsapp-web.js": "^1.14.0",
+    "qrcode-terminal": "^1.0.1",
+    "axios": "^0.21.1",
+    "puppeteer": "^10.0.0"
+  }
+}
